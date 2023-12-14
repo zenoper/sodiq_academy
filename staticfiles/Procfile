@@ -1,1 +1,0 @@
-web: gunicorn SodiqAcademy.wsgi --log-file -
