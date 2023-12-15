@@ -10,6 +10,3 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.landing_page, name="landing_page"),
 ]
-
-if settings.DEBUG:
-    urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
